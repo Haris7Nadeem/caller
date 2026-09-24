@@ -4,7 +4,7 @@ const KEYS = [
   ['1', ''], ['2', 'ABC'], ['3', 'DEF'],
   ['4', 'GHI'], ['5', 'JKL'], ['6', 'MNO'],
   ['7', 'PQRS'], ['8', 'TUV'], ['9', 'WXYZ'],
-  ['*', ''], ['0', '+'], ['#', ''],
+  ['*', ''], ['0', '+'], ['+', ''],
 ]
 
 export default function Dialer({ onCall }) {
@@ -16,7 +16,7 @@ export default function Dialer({ onCall }) {
         <input
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          placeholder="number"
+          placeholder="Number"
         />
         {/* <div className="as">Calling as +1 (209) 448-7790</div> */}
       </div>

@@ -62,10 +62,10 @@ export default function App() {
       <main className="main">
         <div className="main-topbar">
           <div>
-            <h1>Dialer</h1>
-            <p>Calling as +1 (209) 448-7790</p>
+            <h1>Dialer Number</h1>
+            <p> +1 (209) 448-7790</p>
           </div>
-          <span className="trial-pill">Trial mode</span>
+          {/* <span className="trial-pill">Trial mode</span> */}
         </div>
 
         <div className="dialer-wrap">
