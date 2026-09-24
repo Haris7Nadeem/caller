@@ -6,8 +6,8 @@ export default function Sidebar({ contacts, selectedId, onSelect }) {
       <div className="sidebar-brand">
         <div className="mark" />
         <div>
-          <div className="name">Convoy Dialer</div>
-          <div className="sub">DeveloperHub Dispatch</div>
+          <div className="name">Dialer</div>
+          <div className="sub">Dispatch Company</div>
         </div>
       </div>
 
