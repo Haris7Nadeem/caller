@@ -13,7 +13,7 @@ export default function Sidebar({ contacts, selectedId, onSelect }) {
 
       <nav className="sidebar-nav">
         <button className="nav-btn active">Calls</button>
-        <button className="nav-btn">Loads</button>
+        <button className="nav-btn">Load</button>
         <button className="nav-btn">Carriers</button>
       </nav>
 
