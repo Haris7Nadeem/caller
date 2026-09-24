@@ -16,9 +16,9 @@ export default function Dialer({ onCall }) {
         <input
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          placeholder="Enter carrier number"
+          placeholder="number"
         />
-        <div className="as">Calling as +1 (209) 448-7790</div>
+        {/* <div className="as">Calling as +1 (209) 448-7790</div> */}
       </div>
 
       <div className="dialer-grid">
